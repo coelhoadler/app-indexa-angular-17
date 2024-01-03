@@ -1,0 +1,17 @@
+input {
+    color: var(--Gray-600, #6C757D);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    border-radius: 4px;
+    border: 1px solid var(--Gray-400, #CED4DA);
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    flex: 1 0 0;
+    width: 100%;
+    margin: 40px 0;
+}

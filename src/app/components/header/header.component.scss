@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    width: 416px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #0D6EFD;
+    padding-bottom: 40px;
+
+    .title {
+        color: var(--Blue-500, #0D6EFD);
+        text-align: center;
+
+        font-family: Zen Dots;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin: 0;
+
+        span {
+            color: var(--Orange-400, #FD9843);
+
+            font-family: Zen Dots;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+    }
+}
